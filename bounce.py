@@ -12,8 +12,6 @@ canvas.pack(padx=10, pady=10)
 score = Label(height=50, width=80, text="Score: 00", font="Calibri 14 italic")
 score.pack(side="left")
 root.update()
-
-
 class Ball:
     def __init__(self, cvs, clr, pole, stones, scre):
         self.stones = stones
