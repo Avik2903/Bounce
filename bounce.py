@@ -114,9 +114,7 @@ class Stone:
         self.cvs = cvs
         self.id = canvas.create_oval(5, 5, 25, 25, fill=clr, width=2)
 
-
 playing = False
-
 
 def start_game(event):
     global playing
