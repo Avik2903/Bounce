@@ -108,7 +108,6 @@ class Pole:
         if self.pauseSeconds == 2:
             self.pauseSeconds = 0
 
-
 class Stone:
     def __init__(self, cvs, clr):
         self.cvs = cvs
